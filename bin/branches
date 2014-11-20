@@ -3,4 +3,4 @@
 require 'branches'
 
 commands = Branches::Commands.new
-commands.show_branches_by_date
+puts commands.show_branches_by_date
