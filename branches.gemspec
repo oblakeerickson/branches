@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Branches::VERSION
   spec.authors       = ["Blake Erickson"]
   spec.email         = ["o.blakeerickson@gmail.com"]
-  spec.summary       = %q{A command line tool to show a list of git branches by date}
-  spec.description   = %q{A command line tool to show a list of git branches by date}
-  spec.homepage      = "http://blaketv.com"
+  spec.summary       = %q{A command-line tool to show a list of git branches by date}
+  spec.description   = %q{A command-line tool to show a list of git branches by date}
+  spec.homepage      = "https://github.com/oblakeerickson/branches"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
