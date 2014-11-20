@@ -16,7 +16,15 @@ Install it yourself as:
 
 ## Usage
 
-Type `branches` from the command line inside of a git repo.
+Just type:
+
+    $ branches
+
+from the command line inside of a git repo.
+
+If you have a lot of branches you can combine(pipe) `branches` with the `head` command like this:
+
+    $ branches | head
 
 ## Contributing
 
